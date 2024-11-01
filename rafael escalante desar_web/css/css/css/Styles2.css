@@ -1,0 +1,36 @@
+/* 1. Estilos para el primer elemento del listado de frutas */
+#frutas li:first-child {
+    color: green;
+    font-size: 30px;
+}
+
+/* 2. Estilos para el último elemento del listado de frutas */
+#frutas li:last-child {
+    color: firebrick;
+    font-size: 25px;
+}
+
+/* 3. Estilos para el elemento con el ID "nombres" */
+#nombres {
+    background-color: rgb(211, 255, 245);
+    padding: 20px;
+    border: 2px dashed rgb(172, 24, 24);
+    list-style: none;
+}
+
+
+#nombres li:nth-child(odd) {
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+#nombres li:nth-child(even) {
+    color: darkorange;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+

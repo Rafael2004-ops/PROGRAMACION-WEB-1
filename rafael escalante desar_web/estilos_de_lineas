@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estilos</title>
+    <link rel="stylessheet" href="css/Styles2.css">
+</head>
+<body>
+    
+        <h2>ESTILOS EN LINEA</h2>
+        <H3 style="color: green; background: pink; padding: 10px; text-align: center;">Lorem
+        ipsum dolor sit amet.</H3>
+        <br><br>
+        <h2 >ESTILOS INTERNOS DENTRO DE LA ETIQUETA STYLE</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Veritatis doloribus aut voluptatem iure animi sed inventore officia unde saepe
+        fugit.</p>
+        <h2>ESTILOS FUERA LINEA</h2>
+        <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <div>
+        </div>
+        </p>
+    
+</body>
+</html>
